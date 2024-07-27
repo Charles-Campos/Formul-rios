@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Formulário de Pesquisa de Satisfação</title>
+    <h1>Pesquisa de Satisfação</h1>
+</head>
+<body>
+    <div>
+        <p>
+            <Label for="Nome">Nome:</Label>
+            <input type="text" id="Nome" placeholder="Digite seu nome completo" name="Dados Pessoais">
+            
+        </p>
+        <p>
+            <Label for="Mail">Mail:</Label>
+            <input type="text" id="Mail" placeholder="Digite seu e-mail" name="Dados Pessoais">
+            
+        </p>
+        <p>
+            <Label for="Telefone">Contato:</Label>
+            <input type="number" id="Telefone" placeholder="Digite o nº do seu telefone" name="Dados Pessoais">
+            
+        </p>
+    </div>
+    <h4>Pesquisa de Satisfação</h4>
+
+    <p> Você gostou do nosso Atendimento?</p>
+    <input type="radio" id="Resposta 1" name="Pergunta 1">
+    <label for="Pergunta 1">SIM</label>
+    <input type="radio" id="Resposta 2" name="Pergunta 1">
+    <label for="Pergunta 2">NÃO</label>
+
+    <p> Você recomendaria nossos produtos?</p>
+    <input type="radio" id="Resposta 1" name="Pergunta 2">
+    <label for="Pergunta 1">SIM</label>
+    <input type="radio" id="Resposta 2" name="Pergunta 2">
+    <label for="Pergunta 2">NÃO</label>
+    <input type="radio" id="Resposta 3" name="Pergunta 2">
+    <label for="Pergunta 3">ALGUNS DELES</label>
+
+    <p>Qual Produto você mais gostou?</p>
+    <Select>
+        <option>Produto X</option>
+        <option>Produto Y</option>
+        <option>Nenhum Produto</option>
+    </Select>
+
+    <p>
+       <input type="checkbox" id="Autorização" name="Pesquisa de Satisção">
+       <label for="Autorização">Autorizo o compartilhamento das minhas respostas</label>
+    </p>
+    <input type="button" value="Enviar Respostas">
+    <div>
+
+    </div>
+    
+</body>
+</html>
